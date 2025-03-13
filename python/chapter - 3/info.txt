@@ -1,0 +1,18 @@
+top to bottom 
+
+- conditon , float run , other not run
+
+- contol flow 
+
+- conditon -if ,elif, else
+
+for while else suite
+
+nested
+infinite loop
+
+pass
+continue
+break
+
+assert return
