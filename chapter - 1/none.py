@@ -1,2 +1,0 @@
-result = None
-print(result)
