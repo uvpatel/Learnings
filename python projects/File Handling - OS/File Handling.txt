@@ -1,0 +1,12 @@
+Step 1: Plan the Structure
+We'll first break down the tasks:
+
+Input Folder: Ask the user for the folder to organize.
+Get File Types: List all files and their extensions.
+Create Subfolders: Create subfolders based on the file type (e.g., Images, Text, Documents).
+Move Files: Move the files to their respective subfolders.
+Step 2: Start Coding
+We'll start by writing code to:
+
+Get the folder path from the user.
+List all files in the folder.
