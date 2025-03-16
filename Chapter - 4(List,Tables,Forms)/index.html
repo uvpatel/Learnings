@@ -12,6 +12,7 @@
         <h2>HTML Lists</h2>
         <p>Lists are used to display information in a structured format. There are three types of lists in HTML:</p>
 
+        <p>We use the following tags to create lists:</p>
         <pre>
             &lt;ul&gt; - Unordered List
             &lt;ol&gt; - Ordered List
@@ -19,10 +20,10 @@
             &lt;li&gt; - List Item
             &lt;dt&gt; - Definition Term
             &lt;dd&gt; - Definition Description
-
         </pre>
         
         <h3>Unordered List</h3>
+        <p>An unordered list is a collection of items that appear in bullet points.</p>
         <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -30,6 +31,7 @@
         </ul>
         
         <h3>Ordered List</h3>
+        <p>An ordered list is a collection of items that appear in a numbered sequence.</p>
         <ol>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -37,6 +39,7 @@
         </ol>
         
         <h3>Definition List</h3>
+        <p>A definition list is used for terms and their descriptions.</p>
         <dl>
             <dt>HTML</dt>
             <dd>HyperText Markup Language</dd>
@@ -48,19 +51,19 @@
     </section>
 
 
-    <section class="Table">
-        <h3>This is an Example of Table in HTML</h3>
-        
-        <p>We use Table tag. in Table tag we have tags.  
-            we use these tags to create a table in HTML
-            
-        </p>
-        &lt;thead&gt; - Table Head
-        &lt;tbody&gt; - Table Body
-        &lt;tr&gt; - Table Row
-        &lt;th&gt; - Table Heading
-        &lt;td&gt; - Table Data
-        <table border="+1" cellpadding="10" cellspacing="0" >
+    <section class="table">
+        <h3>HTML Tables</h3>
+        <p>We use the &lt;table&gt; tag to create tables. A table consists of rows and columns, and we use the following tags to structure it:</p>
+
+        <pre>
+            &lt;thead&gt; - Table Head
+            &lt;tbody&gt; - Table Body
+            &lt;tr&gt; - Table Row
+            &lt;th&gt; - Table Header
+            &lt;td&gt; - Table Data
+        </pre>
+
+        <table border="1" cellpadding="10" cellspacing="0">
             <thead>
                 <tr>
                     <th>First Name</th>
@@ -69,80 +72,81 @@
                 </tr>
             </thead>
             <tbody>
-                 <tr>
-                    <td>Hiten </td>
+                <tr>
+                    <td>Hiten</td>
                     <td>Bhadiyadra</td>
                     <td>18</td>
                 </tr>
-                 <tr>
-                    <td>Darshan </td>
+                <tr>
+                    <td>Darshan</td>
                     <td>Ajudia</td>
                     <td>18</td>
                 </tr>
-                 <tr>
+                <tr>
                     <td>Heer</td>
                     <td>Vadodariya</td>
                     <td>18</td>
                 </tr>
-                 <tr>
+                <tr>
                     <td>Viveksign</td>
                     <td>Chavda</td>
                     <td>18</td>
                 </tr>
-                 <tr>
+                <tr>
                     <td>Krish</td>
                     <td>Ramani</td>
                     <td>18</td>
                 </tr>
-
-                </tbody>
+            </tbody>
         </table>
     </section>
 
     <section class="form">
-        <h3>HTML Forms.</h3>
+        <h3>HTML Forms</h3>
+        <p>Forms in HTML are used to collect user input. The &lt;form&gt; tag is used to create a form, and it contains different types of input elements.</p>
+
+        <p>Common form elements:</p>
+        <pre>
+            &lt;input&gt; - Input field
+            &lt;label&gt; - Label for input field
+            &lt;button&gt; - Button
+            &lt;select&gt; - Dropdown list
+            &lt;textarea&gt; - Multiline text input
+        </pre>
+
         <form action="submit.php" method="post">
-            <label for="text">Name</label>
+            <label for="text">Name:</label>
             <input type="text" id="text" name="name" required><br><br>
 
-            <label for="password">
-                Password
-            </label>
+            <label for="password">Password:</label>
             <input type="password" id="password" name="password" required><br><br>
-            <label for="hobby">Hobby</label>
-            <input type="checkbox" name="hobby" id="Hobby">
-            <label for="hobby">Reading</label>
-            <input type="checkbox" name="hobby" id="Hobby">
-            <label for="hobby">Writing</label>
-            <input type="checkbox" name="hobby" id="Hobby">
-            <label for="hobby">Programming </label>
 
-
-
+            <p>Hobbies:</p>
+            <input type="checkbox" name="hobby" id="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" name="hobby" id="writing">
+            <label for="writing">Writing</label>
+            <input type="checkbox" name="hobby" id="programming">
+            <label for="programming">Programming</label>
             <br><br>
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id=" email" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br><br>
 
-            <label for="radio">experience</label>
-            <input type="radio" name="skill" id="skill0">
-            <label for="skill">Beginner</label>
-            <input type="radio" name="skill" id="skill1">
-            <label for="skill">Intermediate</label>
-            <input type="radio" name="skill" id="skill2">
-            <label for="skill">Expert</label>
+            <p>Experience Level:</p>
+            <input type="radio" name="skill" id="beginner">
+            <label for="beginner">Beginner</label>
+            <input type="radio" name="skill" id="intermediate">
+            <label for="intermediate">Intermediate</label>
+            <input type="radio" name="skill" id="expert">
+            <label for="expert">Expert</label>
             <br><br>
 
-            
-            <button type="reset">reset</button>
-            <button type="submit">submit</button>
-
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
             <br><br>
-
-            <h3></h3>
         </form>
     </section>
-
 
 </body>
 </html>
