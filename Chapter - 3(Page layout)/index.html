@@ -3,81 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter - 3(Creating Page layout)</title>
+    <meta name="description" content="Learn how to create a structured and SEO-friendly webpage using HTML tags like section, article, div, span, video, audio, and iframe.">
+    <meta name="keywords" content="HTML, Page Layout, SEO, Web Development, HTML Tags">
+    <meta name="author" content="Your Name">
+    <title>Chapter - 3: Creating an SEO-Friendly Page Layout</title>
 </head>
 <body>
-    <h1>Chapter - 3(Creating Page layout)</h1>
-    <p>When we use the right tag in right place, it results in a better page layout, better indexing
-        by search engines and better user experience.
-        We use the following tags to get the job done.
-        </p>
-    <div class="Content">
-        <!-- The main opening tag -->
-<main>
-    <!-- A page section -->
-    <section>
-    <!-- A self-contained content -->
-    <article>
-    <!-- Content goes here -->
-    </article>
-    </section>
-    <!-- Content aside from the main content (e.g. Ads, sidebars) -->
-    <aside>
-    <!-- Aside content goes here -->
-    </aside>
-    </main>
-    <!-- The main closing tag -->
-    </div>
-
-    <p>Creating a page like this is not necessary but it creates a readable & structured layout.
-        Also, they are useful for SEO.</p>
-        <div class="link">
-
-            <h3>
-                LINK ATTRIBUTES
-                <!-- Contact page opens -->
-                <!-- Contact page opens in the same tab -->
-                <a href="/contact">Contact</a>
-                <!-- Contact page opens in a new tab -->
-                <a href="/contact" target="_blank">Contact us</a>
-            </h3>
-            <p>We can put any content inside an anchor tag (images, headings etc are all allowed).
-                If the page is inside a directory, we need to make sure that we link to the correct page
-(Same applies to img tag as well.)
-We can add links to images like this.
-<a href = "/about"> <img src="a.jpg" width = "120"> </a>
-            </p>
-        </div>
-
-        <div class="div-about">
-           <h3>
-               THE DIV TAG
-
-           </h3> 
-            The <div> tag is often used as a container for other elements. It is a block-level element,
-            meaning it always takes up the full width available.
-            <div>
-            <h1>This is a heading inside a div.</h1>
-            <p>This is a paragraph inside a div.</p>
-            </div>
-
-        </div>
-
-
-        <div class="span">
-          <h3>
-            THE SPAN TAG
-          </h3>  
-
-            The <span> tag is an inline container, meaning it only takes up as much width as
-            necessary.
-            <p>This is a <span>highlighted</span> word in a sentence.</p>
-            </div>
-
-
+    <header>
+        <h1>Chapter - 3: Creating an SEO-Friendly Page Layout</h1>
+    </header>
+    <p>Using the right HTML tags ensures better page layout, improved search engine indexing, and an enhanced user experience. Below, we explore key tags that contribute to a well-structured webpage.</p>
+    
+    <nav>
+        <h2>Navigation Bar</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>The SECTION Tag</h2>
+            <p>The <code>&lt;section&gt;</code> tag groups related content together, typically under a heading.</p>
+            <article>
+                <h3>The ARTICLE Tag</h3>
+                <p>The <code>&lt;article&gt;</code> tag represents independent content such as blog posts, news articles, or user-generated content.</p>
+            </article>
+        </section>
         
-
-
+        <aside>
+            <h2>The ASIDE Tag</h2>
+            <p>The <code>&lt;aside&gt;</code> tag contains supplementary content like sidebars, ads, or related links.</p>
+        </aside>
+    </main>
+    
+    <p>Well-structured pages improve readability, SEO, and accessibility.</p>
+    
+    <div class="links">
+        <h2>Link Attributes</h2>
+        <p>Anchor tags (<code>&lt;a&gt;</code>) are used for navigation and linking to external resources.</p>
+        <a href="/contact">Contact</a>
+        <a href="/contact" target="_blank" rel="noopener">Contact us (Opens in a new tab)</a>
+        <p>Adding links to images:</p>
+        <a href="/about"> <img src="a.jpg" width="120" alt="About Us"></a>
+    </div>
+    
+    <div class="div-container">
+        <h2>The DIV Tag</h2>
+        <p>The <code>&lt;div&gt;</code> tag is a block-level container used for styling and layout purposes.</p>
+        <div>
+            <h3>Example of a DIV</h3>
+            <p>This is a paragraph inside a div.</p>
+        </div>
+    </div>
+    
+    <div class="span-container">
+        <h2>The SPAN Tag</h2>
+        <p>The <code>&lt;span&gt;</code> tag is an inline container used to style specific text.</p>
+        <p>This is a <span style="color: red; font-weight: bold;">highlighted</span> word in a sentence.</p>
+    </div>
+    
+    
+    
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
